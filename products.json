@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "brand": "Neutrogena",
+    "name": "Ultra Gentle Daily Cleanser",
+    "category": "cleanser",
+    "price": 9.34,
+    "stock": 5,
+    "img":"cleanser.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "the Ordinary",
+    "name": "Acide Hyaluronique 2% + B5",
+    "category": "serum",
+    "price": 6.9,
+    "stock": 20,
+    "img":"serum.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Cetaphil",
+    "name": "Moisturizing facial and body lotion",
+    "category": "cream",
+    "price": 16.2,
+    "stock": 15,
+    "img":"cream.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "La Roche Posay",
+    "name": "Anthelios Fluide Invisible without Perfume SPF50+ 50ml",
+    "category": "sunscreen",
+    "price": 14.9,
+    "stock": 10,
+    "img":"sunscreen.jpg"
+  }
+]
