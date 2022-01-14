@@ -6,7 +6,7 @@
     "category": "cleanser",
     "price": 9.34,
     "stock": 5,
-    "img":"/img/cleanser.jpg"
+    "img":"./img/cleanser.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "serum",
     "price": 6.9,
     "stock": 20,
-    "img":"/img/serum.jpg"
+    "img":"./img/serum.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "category": "cream",
     "price": 16.2,
     "stock": 15,
-    "img":"/img/cream.jpg"
+    "img":"./img/cream.jpg"
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "category": "sunscreen",
     "price": 14.9,
     "stock": 10,
-    "img":"/img/sunscreen.jpg"
+    "img":"./img/sunscreen.jpg"
   }
 ]
