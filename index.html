@@ -35,7 +35,7 @@
             </li>
           </ul>
           <div class="fa-2x">
-            <a id="btnCart" data-bs-toggle="modal" data-bs-target="#modal-window"><i class="fas fa-shopping-cart text-secondary"></i></a>
+            <a data-bs-toggle="modal" data-bs-target="#modal-window"><i class="fas fa-shopping-cart text-secondary"></i></a>
           </div>
           <div>
             <div class="modal" id="modal-window" tabindex="-1" role="dialog" aria-labelledby="title-window" aria-hidden="true">
@@ -48,10 +48,56 @@
                     </button>
                   </div>
                   <div class="modal-body" id="modal-body">
+
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Item</th>
+                          <th scope="col">Amount</th>
+                          <th scope="col">+/-</th>
+                          <th scope="col">Total</th>
+                        </tr>
+                      </thead>
+                      <tbody id="items"></tbody>
+                      <tfoot>
+                        <tr id="footerCart">
+                          <th scope="row" colspan="5">There are no products in your cart. Start buying!</th>
+                        </tr>
+                      </tfoot>
+                    </table>
+
+                    <template id="template-carrito">
+                      <tr>
+                        <th scope="row">id</th>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="btn btn-info btn-sm">
+                                +
+                            </button>
+                            <button class="btn btn-danger btn-sm">
+                                -
+                            </button>
+                        </td>
+                        <td>$ <span></span></td>
+                      </tr>
+                    </template>
+
+                    <template id="template-footer">
+                      <th scope="row" colspan="2">Total products</th>
+                      <td>10</td>
+                      <td>
+                          <button class="btn btn-danger btn-sm" id="empty-cart">
+                              Empty cart
+                          </button>
+                      </td>
+                      <td class="font-weight-bold">$ <span></span></td>
+                    </template>
                     
                   </div>
                   <div class="row ml-auto">
-                    <p id="totalPriceParag"></p>
+                    <p></p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-primary" id="btnEndPurchase">Buy</button>
@@ -102,7 +148,20 @@
 
         <!--PRODUCTS-->
       <section class="container-fluid container mb-5">
-        <div id="productGrid"></div>
+        <div id="productGrid">
+          <template id="template-card">
+            <div class="col-12 mb-2">
+              <div class="card">
+                <img src="" alt="" class="imgProduct card-img-top">
+                <div class="card-body">
+                  <h5 class="title"></h5>
+                  <p class="price"></p>
+                  <button class="btn btn-warning">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
       </section>
 
     <!--TEAM-->
@@ -191,7 +250,5 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
     <script src="js/script.js"></script>
-    <script src="js/class.js"></script>
-    <script src="js/events.js"></script>
   </body>
 </html>

@@ -6,7 +6,7 @@
     "category": "cleanser",
     "price": 9.34,
     "stock": 5,
-    "img":"cleanser.jpg"
+    "img":"/img/cleanser.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "serum",
     "price": 6.9,
     "stock": 20,
-    "img":"serum.jpg"
+    "img":"/img/serum.jpg"
   },
   {
     "id": 3,
@@ -24,15 +24,15 @@
     "category": "cream",
     "price": 16.2,
     "stock": 15,
-    "img":"cream.jpg"
+    "img":"/img/cream.jpg"
   },
   {
     "id": 4,
     "brand": "La Roche Posay",
-    "name": "Anthelios Fluide Invisible without Perfume SPF50+ 50ml",
+    "name": "Anthelios Fluide Invisible SPF50+",
     "category": "sunscreen",
     "price": 14.9,
     "stock": 10,
-    "img":"sunscreen.jpg"
+    "img":"/img/sunscreen.jpg"
   }
 ]
